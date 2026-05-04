@@ -254,6 +254,11 @@ body{
   margin-right: 12px;
   margin-bottom: 100px;
 
+  -webkit-user-select: none; /* Safari / iOS */
+  -ms-user-select: none;     /* IE */
+  user-select: none;         /* standar */
+  -webkit-touch-callout: none; /* matiin menu copy di iOS */
+
   transition: 0.3s ease;
 }
 
