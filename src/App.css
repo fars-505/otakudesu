@@ -107,7 +107,13 @@ html{
   height: 130px;  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+  .isi{
+  padding-left: -10px;
+  padding-right: -10px ;
+  margin-bottom: 100px;
+  }
+
   #contact{
   margin-bottom: 100px;
 }
