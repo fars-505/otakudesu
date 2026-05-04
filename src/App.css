@@ -347,6 +347,10 @@ body{
   transition: 0.4s ease;
 }
 
+.tutup{
+  z-index: 4;
+}
+
 .blur{
   filter: blur(4px);
   opacity: 0.5;
